@@ -27,17 +27,17 @@ Este desafio nos leva a colocar em prática nosso conhecimento de HTML e CSS, da
 
 ### Responsividade
 
-![](./)
+![](./src/images/Captura%20de%20tela%202023-10-18%20094737%20responsivo.png)
 
 ### Links
 
-- URL da solução: https://github.com/luizgustavogaldino/nft-frontendmentor
+- URL da solução: https://github.com/luizgustavogaldino/landig-page-huddle
 
-- URL do site ativo: https://luizgustavogaldino.github.io/nft-frontendmentor/
+- URL do site ativo: https://luizgustavogaldino.github.io/landig-page-huddle/
 
 ## Meu processo
 
-Para criação desta resolução eu separei o processo de desenvolvimento em **4 etapas**:
+Para criação desta resolução eu separei o processo de desenvolvimento em **5 etapas**:
 
 - Análise:
     - Analisei o que o desafio pedia para resolvê-lo da melhor forma.
@@ -48,7 +48,9 @@ Para criação desta resolução eu separei o processo de desenvolvimento em **4
 - Criação do CSS:
     - Resetei as estilizações padrão do navegagor para não interfirir na estilização solicitada no desafio.
     - Criei variáveis para as cores fornecidas no Style-Guide do desafio.
-    - Estilizei a pagina de acordo com o layout fornecido. 
+    - Estilizei a pagina de acordo com o layout fornecido.
+- Criação do responsivo: 
+    - Deixei o site resposivo para aparelhos mobiles com telas de 375px.
 
 ### Construído com
 
@@ -60,6 +62,8 @@ Para criação desta resolução eu separei o processo de desenvolvimento em **4
 ### O que aprendi
 
 Neste desafio tive a oportunidade de aprender a dividir a solução do desenvolvimento de um projeto em etapas, facilitando assim a conclusão das etapas e do desafio de forma mais simples e objetiva. 
+
+Desenvolvi a minha capacidade de resolver problemas do código. 
 
 ## Autor Luiz Gustavo
 
