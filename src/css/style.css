@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-color: var(--primaria-bg);
@@ -6,38 +6,42 @@ body{
     max-width: 1440px;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
 }
 
-.title{
-    padding: 50px;
+.title {
+    padding: 70px;
 }
 
-.conteudo-principal{
+.title img {
+    width: 200px;
+}
+
+.conteudo-principal {
     display: flex;
-    padding: 20px 50px;
+    padding: 0px 70px;
 }
 
-.conteudo-principal .info-conteudo-principal{
+.conteudo-principal .info-conteudo-principal {
     padding-top: 40px;
-    padding-left: 50px;
-    padding-right: 90px;
+    padding-left: 30px;
 }
 
-.conteudo-principal .info-conteudo-principal h2{
-    font-size: 40px;
+.conteudo-principal .info-conteudo-principal h2 {
+    font-size: 45px;
     font-weight: 600;
     color: white;
 }
 
-.conteudo-principal .info-conteudo-principal p{
+.conteudo-principal .info-conteudo-principal p {
     color: white;
     margin-top: 20px;
+    font-size: 18px;
 }
 
-.conteudo-principal .info-conteudo-principal button{
+.conteudo-principal .info-conteudo-principal button {
     width: 150px;
     height: 40px;
     border-radius: 30px;
@@ -46,20 +50,20 @@ body{
     transition: 0.3s;
 }
 
-.conteudo-principal .info-conteudo-principal button:hover{
+.conteudo-principal .info-conteudo-principal button:hover {
     background-color: var(--secundaria-active);
     color: #ffffff;
 }
 
-.redes-sociais{
+.redes-sociais {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 90px;
+    margin-right: 70px;
 
 }
 
-.redes-sociais i{
+.redes-sociais i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +76,69 @@ body{
     transition: 0.3s;
 }
 
-.redes-sociais i:hover{
+.redes-sociais i:hover {
     color: var(--secundaria-active);
     border-color: var(--secundaria-active);
+}
+
+@media(max-width: 376px) {
+    body {
+        background: url(../images/bg-mobile.svg) var(--primaria-bg) no-repeat;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .title {
+        padding: 30px 40px;
+    }
+
+    .title img {
+        width: 120px;
+    }
+
+    .conteudo-principal {
+        flex-direction: column;
+        padding: 30px 40px;
+    }
+
+    .conteudo-principal img {
+        width: 300px;
+    }
+
+    .conteudo-principal .info-conteudo-principal {
+        text-align: center;
+        margin-top: 40px;
+        padding: 5px;
+
+    }
+
+    .conteudo-principal .info-conteudo-principal h2 {
+        font-size: 25px;
+    }
+
+    .conteudo-principal .info-conteudo-principal p {
+        font-size: 14px;
+    }
+
+
+    .conteudo-principal .info-conteudo-principal button {
+        width: 200px;
+    }
+
+    .redes-sociais {
+        margin: 30px;
+        justify-content: center;
+    }
+
+    .redes-sociais i {
+        width: 10px;
+        height: 10px;
+        border: 1px solid;
+        padding: 15px;
+        margin: 5px;
+
+    }
+
 }
